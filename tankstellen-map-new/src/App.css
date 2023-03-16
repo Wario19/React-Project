@@ -1,5 +1,11 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  color: white;
+  
 }
 
 .App-logo {
@@ -35,4 +41,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Map {
+  border-style: double;
+  border-color: red;
+  border-radius: 10px;
+  size: 500px;
 }
